@@ -1,0 +1,30 @@
+{
+  "name": "project-5-productmanagement",
+  "version": "1.0.0",
+  "description": "This is a Ecommerce Application",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ashutosh5426/Project-5-ProductManagement.git"
+  },
+  "author": "\"Ashutosh Gupta\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ashutosh5426/Project-5-ProductManagement/issues"
+  },
+  "homepage": "https://github.com/Ashutosh5426/Project-5-ProductManagement#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1186.0",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "email-validator": "^2.0.4",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.5.0",
+    "multer": "^1.4.5-lts.1"
+  }
+}
